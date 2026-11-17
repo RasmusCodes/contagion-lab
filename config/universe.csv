@@ -1,0 +1,98 @@
+﻿id,name,asset_class,group,source,symbol,kind,transform,close_et,tz,sets,notes
+SPY,S&P 500 (SPY total return),equity,us_broad,yahoo,SPY,price,logret,16.0,America/New_York,macro;sectors;sync;fin;portfolio;style,Market reference for the master NYSE calendar
+IWM,Russell 2000 (IWM),equity,us_broad,yahoo,IWM,price,logret,16.0,America/New_York,macro;sync;style,
+QQQ,Nasdaq-100 (QQQ),equity,us_broad,yahoo,QQQ,price,logret,16.0,America/New_York,style,
+IWF,Russell 1000 Growth (IWF),equity,us_style,yahoo,IWF,price,logret,16.0,America/New_York,style,Long-duration equity proxy
+IWD,Russell 1000 Value (IWD),equity,us_style,yahoo,IWD,price,logret,16.0,America/New_York,style,
+EFA,MSCI EAFE (EFA),equity,intl_us_listed,yahoo,EFA,price,logret,16.0,America/New_York,macro;sync;portfolio,US-listed so it trades synchronously with SPY
+EEM,MSCI Emerging Markets (EEM),equity,intl_us_listed,yahoo,EEM,price,logret,16.0,America/New_York,macro;sync;portfolio,US-listed so it trades synchronously with SPY
+XLB,Materials (XLB),equity,sector,yahoo,XLB,price,logret,16.0,America/New_York,sectors,
+XLE,Energy (XLE),equity,sector,yahoo,XLE,price,logret,16.0,America/New_York,sectors,
+XLF,Financials (XLF),equity,sector,yahoo,XLF,price,logret,16.0,America/New_York,macro;sectors;sync;fin,
+XLI,Industrials (XLI),equity,sector,yahoo,XLI,price,logret,16.0,America/New_York,sectors,
+XLK,Technology (XLK),equity,sector,yahoo,XLK,price,logret,16.0,America/New_York,sectors,
+XLP,Consumer Staples (XLP),equity,sector,yahoo,XLP,price,logret,16.0,America/New_York,sectors,
+XLU,Utilities (XLU),equity,sector,yahoo,XLU,price,logret,16.0,America/New_York,sectors,
+XLV,Health Care (XLV),equity,sector,yahoo,XLV,price,logret,16.0,America/New_York,sectors,
+XLY,Consumer Discretionary (XLY),equity,sector,yahoo,XLY,price,logret,16.0,America/New_York,sectors,
+IYR,Real Estate (IYR),equity,sector,yahoo,IYR,price,logret,16.0,America/New_York,sectors,Long-history real-estate sector proxy (XLRE starts 2015)
+XLRE,Real Estate (XLRE),equity,sector_short,yahoo,XLRE,price,logret,16.0,America/New_York,sectors_short,Starts 2015-10
+XLC,Communication Services (XLC),equity,sector_short,yahoo,XLC,price,logret,16.0,America/New_York,sectors_short,Starts 2018-06
+KRE,Regional Banks (KRE),equity,industry,yahoo,KRE,price,logret,16.0,America/New_York,industries;fin,Starts 2006-06
+ITB,Homebuilders (ITB),equity,industry,yahoo,ITB,price,logret,16.0,America/New_York,industries,Starts 2006-05
+JPM,JPMorgan Chase,equity,fin_institution,yahoo,JPM,price,logret,16.0,America/New_York,fin,
+BAC,Bank of America,equity,fin_institution,yahoo,BAC,price,logret,16.0,America/New_York,fin,
+C,Citigroup,equity,fin_institution,yahoo,C,price,logret,16.0,America/New_York,fin,
+WFC,Wells Fargo,equity,fin_institution,yahoo,WFC,price,logret,16.0,America/New_York,fin,
+GS,Goldman Sachs,equity,fin_institution,yahoo,GS,price,logret,16.0,America/New_York,fin,
+MS,Morgan Stanley,equity,fin_institution,yahoo,MS,price,logret,16.0,America/New_York,fin,
+AIG,American International Group,equity,fin_institution,yahoo,AIG,price,logret,16.0,America/New_York,fin,
+MET,MetLife,equity,fin_institution,yahoo,MET,price,logret,16.0,America/New_York,fin,
+PRU,Prudential Financial,equity,fin_institution,yahoo,PRU,price,logret,16.0,America/New_York,fin,
+AXP,American Express,equity,fin_institution,yahoo,AXP,price,logret,16.0,America/New_York,fin,
+USB,U.S. Bancorp,equity,fin_institution,yahoo,USB,price,logret,16.0,America/New_York,fin,
+PNC,PNC Financial,equity,fin_institution,yahoo,PNC,price,logret,16.0,America/New_York,fin,
+BNY,BNY Mellon,equity,fin_institution,yahoo,BNY,price,logret,16.0,America/New_York,fin,Ticker changed from BK; Yahoo's BK is now an unrelated 2026 listing
+SCHW,Charles Schwab,equity,fin_institution,yahoo,SCHW,price,logret,16.0,America/New_York,fin,
+BLK,BlackRock,equity,fin_institution,yahoo,BLK,price,logret,16.0,America/New_York,fin,
+GSPC,S&P 500 index,equity_index,global_index,yahoo,^GSPC,index_level,logret,16.0,America/New_York,global,Price index (no dividends)
+STOXX50E,Euro Stoxx 50,equity_index,global_index,yahoo,^STOXX50E,index_level,logret,11.5,Europe/Zurich,global,Closes 17:30 CET = 11:30 ET; overlaps the US morning only
+GDAXI,DAX,equity_index,global_index,yahoo,^GDAXI,index_level,logret,11.5,Europe/Berlin,global,Closes 17:30 CET = 11:30 ET
+FTSE,FTSE 100,equity_index,global_index,yahoo,^FTSE,index_level,logret,11.5,Europe/London,global,Closes 16:30 GMT = 11:30 ET
+N225,Nikkei 225,equity_index,global_index,yahoo,^N225,index_level,logret,1.0,Asia/Tokyo,global,Closes 15:00 JST = 01:00 ET on the same date: before the US open
+HSI,Hang Seng,equity_index,global_index,yahoo,^HSI,index_level,logret,3.0,Asia/Hong_Kong,global,Closes 16:00 HKT = 03:00 ET on the same date
+UST3M,US Treasury 3M yield,rates,treasury_yield,fred,DGS3MO,yield,dbp,15.5,America/New_York,rates,H.15 constant maturity; bid quotes near 15:30 ET
+UST2Y,US Treasury 2Y yield,rates,treasury_yield,fred,DGS2,yield,dbp,15.5,America/New_York,macro;rates;sectors,H.15 constant maturity; bid quotes near 15:30 ET
+UST5Y,US Treasury 5Y yield,rates,treasury_yield,fred,DGS5,yield,dbp,15.5,America/New_York,rates,
+UST10Y,US Treasury 10Y yield,rates,treasury_yield,fred,DGS10,yield,dbp,15.5,America/New_York,macro;rates;sectors,
+UST30Y,US Treasury 30Y yield,rates,treasury_yield,fred,DGS30,yield,dbp,15.5,America/New_York,rates,No data Feb-2002 to Feb-2006 (30Y issuance suspended)
+TIPS10Y,10Y TIPS real yield,rates,real_yield,fred,DFII10,yield,dbp,15.5,America/New_York,rates,
+BE10Y,10Y breakeven inflation,rates,breakeven,fred,T10YIE,yield,dbp,15.5,America/New_York,rates,
+FEDFUNDS,Effective fed funds rate,rates,policy_rate,fred,DFF,yield,dbp,16.0,America/New_York,rates_level,Calendar-day series (weekends filled by FRED)
+SLOPE2S10S,10Y minus 2Y Treasury slope,rates,curve,fred,T10Y2Y,spread,dbp,15.5,America/New_York,rates,
+SHY,1-3Y Treasury ETF (SHY),govbond,treasury_etf,yahoo,SHY,price,logret,16.0,America/New_York,govbond;sync,Starts 2002-07
+IEF,7-10Y Treasury ETF (IEF),govbond,treasury_etf,yahoo,IEF,price,logret,16.0,America/New_York,govbond;sync;portfolio,Starts 2002-07
+TLT,20+Y Treasury ETF (TLT),govbond,treasury_etf,yahoo,TLT,price,logret,16.0,America/New_York,govbond;sync;portfolio,Starts 2002-07
+TIP,TIPS ETF (TIP),govbond,tips_etf,yahoo,TIP,price,logret,16.0,America/New_York,govbond,Starts 2003-12
+LQD,IG corporate bond ETF (LQD),credit,corporate_etf,yahoo,LQD,price,logret,16.0,America/New_York,credit;sync;portfolio,Starts 2002-07
+HYG,High-yield bond ETF (HYG),credit,corporate_etf,yahoo,HYG,price,logret,16.0,America/New_York,credit;sync;portfolio,Starts 2007-04
+BAA10Y,Moody's Baa minus 10Y Treasury,credit,credit_spread,fred,BAA10Y,spread,dbp,16.0,America/New_York,macro;credit;sectors,Long-history IG-credit spread proxy (seasoned 20Y+ bonds)
+AAA10Y,Moody's Aaa minus 10Y Treasury,credit,credit_spread,fred,AAA10Y,spread,dbp,16.0,America/New_York,credit,
+BAAYLD,Moody's Baa corporate yield,credit,corporate_yield,fred,DBAA,yield,dbp,16.0,America/New_York,credit,
+HYOAS,ICE BofA US High Yield OAS,credit,credit_spread,fred,BAMLH0A0HYM2,spread,dbp,16.0,America/New_York,credit_short,FRED now serves only the last 3 years of ICE BofA history
+IGOAS,ICE BofA US Corporate OAS,credit,credit_spread,fred,BAMLC0A0CM,spread,dbp,16.0,America/New_York,credit_short,FRED now serves only the last 3 years of ICE BofA history
+DXY,US Dollar Index,fx,usd_index,yahoo,DX-Y.NYB,fx_rate,logret,17.0,America/New_York,macro;fx,Up = stronger USD; close time approximate
+EURUSD,EUR/USD (H.10 noon),fx,major,fred,DEXUSEU,fx_rate,logret,12.0,America/New_York,fx,Fed H.10 noon NY buying rate; up = stronger EUR. Yahoo FX not used: its close switched to a 00:00-London snapshot around 2011
+USDJPY,USD/JPY (H.10 noon),fx,major,fred,DEXJPUS,fx_rate,logret,12.0,America/New_York,macro;fx,Fed H.10 noon NY rate; up = weaker JPY (yen strengthens in risk-off)
+GBPUSD,GBP/USD (H.10 noon),fx,major,fred,DEXUSUK,fx_rate,logret,12.0,America/New_York,fx,Fed H.10 noon NY rate
+AUDUSD,AUD/USD (H.10 noon),fx,major,fred,DEXUSAL,fx_rate,logret,12.0,America/New_York,fx,Fed H.10 noon NY rate; risk-sensitive commodity currency
+USDMXN,USD/MXN (H.10 noon),fx,em,fred,DEXMXUS,fx_rate,logret,12.0,America/New_York,fx,Fed H.10 noon NY rate
+USDBROAD,Broad USD index (Fed),fx,usd_index,fred,DTWEXBGS,fx_rate,logret,12.0,America/New_York,fx,Fed nominal broad dollar index (from H.10 noon rates); starts 2006
+UUP,USD bullish ETF (UUP),fx,fx_etf,yahoo,UUP,price,logret,16.0,America/New_York,fx;sync,Synchronous 16:00 USD proxy; starts 2007-02
+FXY,Yen ETF (FXY),fx,fx_etf,yahoo,FXY,price,logret,16.0,America/New_York,fx;sync,Up = stronger JPY; starts 2007-02
+FXE,Euro ETF (FXE),fx,fx_etf,yahoo,FXE,price,logret,16.0,America/New_York,fx,Starts 2005-12
+WTI_F,WTI crude front month,commodity,energy,yahoo,CL=F,futures,logret,14.5,America/New_York,commodities,Unadjusted front-month continuation: roll dates add jumps; 2020-04-20 negative print masked
+BRENT_F,Brent crude front month,commodity,energy,yahoo,BZ=F,futures,logret,14.5,America/New_York,commodities,Starts 2007-07
+NATGAS_F,Henry Hub natural gas front month,commodity,energy,yahoo,NG=F,futures,logret,14.5,America/New_York,commodities,Large seasonal roll jumps
+GOLD_F,Gold front month,commodity,precious,yahoo,GC=F,futures,logret,13.5,America/New_York,commodities,Thin Yahoo volume at times; settles 13:30 ET
+SILVER_F,Silver front month,commodity,precious,yahoo,SI=F,futures,logret,13.4,America/New_York,commodities,
+COPPER_F,Copper front month,commodity,industrial,yahoo,HG=F,futures,logret,13.0,America/New_York,macro;commodities,Roll jumps small for copper; 2025-07-31 -25% is the genuine tariff-exemption collapse
+CORN_F,Corn front month,commodity,agriculture,yahoo,ZC=F,futures,logret,14.3,America/New_York,commodities,Old/new-crop roll on 2013-07-15 shows as -27% (artefact)
+WHEAT_F,Wheat front month,commodity,agriculture,yahoo,ZW=F,futures,logret,14.3,America/New_York,commodities,
+OIL,Oil (WTI futures to 2006-04 then USO),commodity,energy,splice,WTI_F>USO,price,logret,16.0,America/New_York,macro;sectors,Spliced returns: futures before USO inception (14:30 settle; roll jumps) then the synchronous roll-free ETF
+GOLD,Gold (futures to 2004-11 then GLD),commodity,precious,splice,GOLD_F>GLD,price,logret,16.0,America/New_York,macro,Spliced returns: futures before GLD inception then the synchronous ETF
+USO,US Oil Fund (USO),commodity,commodity_etf,yahoo,USO,price,logret,16.0,America/New_York,commodities;sync,Investable and synchronous; starts 2006-04
+GLD,SPDR Gold (GLD),commodity,commodity_etf,yahoo,GLD,price,logret,16.0,America/New_York,commodities;sync;portfolio,Starts 2004-11
+SLV,iShares Silver (SLV),commodity,commodity_etf,yahoo,SLV,price,logret,16.0,America/New_York,commodities,Starts 2006-04
+DBC,Invesco DB Commodity (DBC),commodity,commodity_etf,yahoo,DBC,price,logret,16.0,America/New_York,commodities;sync;portfolio,Starts 2006-02
+UNG,US Natural Gas Fund (UNG),commodity,commodity_etf,yahoo,UNG,price,logret,16.0,America/New_York,commodities,Starts 2007-04
+DBA,Invesco DB Agriculture (DBA),commodity,commodity_etf,yahoo,DBA,price,logret,16.0,America/New_York,commodities,Starts 2007-01
+VIX,Cboe VIX,volatility,equity_vol,cboe,_VIX,vol_index,dlog,16.25,America/New_York,macro;vol;sectors;sync,30-day S&P 500 implied volatility
+VIX3M,Cboe VIX3M,volatility,equity_vol,cboe,_VIX3M,vol_index,dlog,16.25,America/New_York,vol,
+VVIX,Cboe VVIX,volatility,vol_of_vol,cboe,_VVIX,vol_index,dlog,16.25,America/New_York,vol,
+MOVE,ICE BofA MOVE index,volatility,rates_vol,yahoo,^MOVE,vol_index,dlog,16.0,America/New_York,macro;vol,Treasury implied volatility
+OVX,Cboe crude oil volatility,volatility,commodity_vol,fred,OVXCLS,vol_index,dlog,16.25,America/New_York,vol,
+GVZ,Cboe gold volatility,volatility,commodity_vol,fred,GVZCLS,vol_index,dlog,16.25,America/New_York,vol,
+VXN,Cboe Nasdaq-100 volatility,volatility,equity_vol,fred,VXNCLS,vol_index,dlog,16.25,America/New_York,vol,
+STLFSI,St. Louis Fed Financial Stress Index,stress,stress_index,fred,STLFSI4,stress_index,none,0,America/New_York,stress_weekly,Weekly; external benchmark only (not used in networks)
+NFCI,Chicago Fed National Financial Conditions Index,stress,stress_index,fred,NFCI,stress_index,none,0,America/New_York,stress_weekly,Weekly; external benchmark only (not used in networks)

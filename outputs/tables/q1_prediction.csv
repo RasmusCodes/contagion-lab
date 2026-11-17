@@ -1,0 +1,4 @@
+,AUC (out of sample)
+"baseline (VIX, RV, momentum)",0.5521430403400139
+baseline + connectedness,0.41716239817291373
+connectedness only,0.45190879224221103

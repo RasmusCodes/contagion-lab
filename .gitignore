@@ -1,0 +1,22 @@
+# environment and tooling
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.claude/
+
+# Market data is not redistributed: scripts/build_data.py downloads it from the original sources
+# (Yahoo Finance, FRED, Cboe, Federal Reserve) into data/, under each source's terms.
+# Anchored to the repository root so the contagion/data/ code package is not ignored.
+/data/
+
+# Caches and exports that contain data-derived daily series; rebuild them locally
+outputs/models/
+outputs/research/
+dashboard/data.js
+dashboard/index.html
+outputs/report/report_fragment.html
+
+# run logs (local paths)
+outputs/*.log
